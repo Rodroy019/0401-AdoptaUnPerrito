@@ -1,5 +1,6 @@
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+import PropTypes from "prop-types";
 
 const MyCard = (props) => {
   return (
@@ -14,4 +15,10 @@ const MyCard = (props) => {
   );
 };
 
+MyCard.propTypes = {
+  imgLink: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  raza: PropTypes.string.isRequired,
+};
 export default MyCard;
