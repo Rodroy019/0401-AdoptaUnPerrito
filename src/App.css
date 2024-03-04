@@ -1,12 +1,16 @@
 #root {
-  max-width: 1280px;
   text-align: center;
 }
 
 .card {
+  margin: 5px;
   padding: 2em;
+  border: 2px solid #535bf2;
+  height: 30rem;
 }
+
 img{
   width: 286px;
   height: 180px;
+  border: 2px solid #535bf2;
 }
